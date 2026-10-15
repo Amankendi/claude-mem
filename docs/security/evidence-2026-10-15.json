@@ -1,0 +1,2578 @@
+{
+  "repository": "Amankendi/claude-mem",
+  "source_base": "fa8ab09f06aa05f958c5225cf3756ce52a3ebb96",
+  "settings_observed_at": "2026-10-15T13:52:11.288564+00:00",
+  "settings": {
+    "deploy_keys": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "branch": {
+      "status": "PASS",
+      "data": {
+        "name": "main",
+        "sha": "fa8ab09f06aa05f958c5225cf3756ce52a3ebb96",
+        "protected": false,
+        "protection": {
+          "enabled": false,
+          "required_status_checks": {
+            "enforcement_level": "off",
+            "contexts": [],
+            "checks": []
+          }
+        }
+      }
+    },
+    "branch_protection": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "rulesets": {
+      "status": "PASS",
+      "data": []
+    },
+    "actions_permissions": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "workflow_permissions": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "fork_approval": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "dependabot_alerts": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "secret_scanning_alerts": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "code_scanning_alerts": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    }
+  },
+  "collaborator_role_counts": {
+    "admin": 1
+  },
+  "original_secret_scan": {
+    "repository": "Amankendi/claude-mem",
+    "scanner": "gitleaks 8.30.1",
+    "binary_sha256": "551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb",
+    "scope": "all locally mirrored Git refs, including fetched PR refs",
+    "exit_code": 1,
+    "status": "FAIL",
+    "findings": [
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 580,
+        "EndLine": 580,
+        "Commit": "073a169ee156b58fd937c55b1a1302aa86e868e0",
+        "Fingerprint": "073a169ee156b58fd937c55b1a1302aa86e868e0:plugin/scripts/server-service.cjs:generic-api-key:580",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 580,
+        "EndLine": 580,
+        "Commit": "bd847dff8e464855b997e584f4230e8bf86774e3",
+        "Fingerprint": "bd847dff8e464855b997e584f4230e8bf86774e3:plugin/scripts/server-service.cjs:generic-api-key:580",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 580,
+        "EndLine": 580,
+        "Commit": "350496aeb205e102da9302f01a2f2e5fa9670ece",
+        "Fingerprint": "350496aeb205e102da9302f01a2f2e5fa9670ece:plugin/scripts/server-service.cjs:generic-api-key:580",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 578,
+        "EndLine": 578,
+        "Commit": "a1a1f0ab006750998f7ca9207144a95f62216500",
+        "Fingerprint": "a1a1f0ab006750998f7ca9207144a95f62216500:plugin/scripts/server-service.cjs:generic-api-key:578",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 576,
+        "EndLine": 576,
+        "Commit": "e90297188194fd7d13fb720681f2db2cddec534b",
+        "Fingerprint": "e90297188194fd7d13fb720681f2db2cddec534b:plugin/scripts/server-service.cjs:generic-api-key:576",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "tests/worker/openrouter-session-trace.test.ts",
+        "StartLine": 244,
+        "EndLine": 244,
+        "Commit": "a2c5124ffd36aae0a0400da4a9cfca8faee68989",
+        "Fingerprint": "a2c5124ffd36aae0a0400da4a9cfca8faee68989:tests/worker/openrouter-session-trace.test.ts:generic-api-key:244",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 578,
+        "EndLine": 578,
+        "Commit": "7bd08ff9cded4bc9a674a9075998f2f8e0835092",
+        "Fingerprint": "7bd08ff9cded4bc9a674a9075998f2f8e0835092:plugin/scripts/server-service.cjs:generic-api-key:578",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 573,
+        "EndLine": 573,
+        "Commit": "94cb08b87271d0a5ee3ab6b241e62727abae7b4b",
+        "Fingerprint": "94cb08b87271d0a5ee3ab6b241e62727abae7b4b:plugin/scripts/server-service.cjs:generic-api-key:573",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "tests/worker/http/routes/settings-routes-unchanged-values.test.ts",
+        "StartLine": 137,
+        "EndLine": 137,
+        "Commit": "d5cf756d6d322441f8907b7dd6f563f5144748ee",
+        "Fingerprint": "d5cf756d6d322441f8907b7dd6f563f5144748ee:tests/worker/http/routes/settings-routes-unchanged-values.test.ts:generic-api-key:137",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "tests/utils/redaction-coverage.test.ts",
+        "StartLine": 16,
+        "EndLine": 16,
+        "Commit": "c95b934f6b481972bd3417bd78fb2b63a77813a6",
+        "Fingerprint": "c95b934f6b481972bd3417bd78fb2b63a77813a6:tests/utils/redaction-coverage.test.ts:generic-api-key:16",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "tests/storage/sqlite/server-storage.test.ts",
+        "StartLine": 46,
+        "EndLine": 46,
+        "Commit": "c95b934f6b481972bd3417bd78fb2b63a77813a6",
+        "Fingerprint": "c95b934f6b481972bd3417bd78fb2b63a77813a6:tests/storage/sqlite/server-storage.test.ts:generic-api-key:46",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "tests/settings-routes-settings-document.test.ts",
+        "StartLine": 73,
+        "EndLine": 73,
+        "Commit": "54319a54acf3f87ad1417bf5a0bd312b4e61aa53",
+        "Fingerprint": "54319a54acf3f87ad1417bf5a0bd312b4e61aa53:tests/settings-routes-settings-document.test.ts:generic-api-key:73",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "curl-auth-header",
+        "File": "docs/public/usage/auto-redaction.mdx",
+        "StartLine": 8,
+        "EndLine": 15,
+        "Commit": "a73c12d2802ddca333d517d7db4460563b85bdb6",
+        "Fingerprint": "a73c12d2802ddca333d517d7db4460563b85bdb6:docs/public/usage/auto-redaction.mdx:curl-auth-header:8",
+        "Description": "Discovered a potential authorization token provided in a curl command header, which could compromise the curl accessed resource."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "tests/integration/redaction-wired.test.ts",
+        "StartLine": 7,
+        "EndLine": 7,
+        "Commit": "a73c12d2802ddca333d517d7db4460563b85bdb6",
+        "Fingerprint": "a73c12d2802ddca333d517d7db4460563b85bdb6:tests/integration/redaction-wired.test.ts:generic-api-key:7",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "tests/utils/redaction.test.ts",
+        "StartLine": 34,
+        "EndLine": 34,
+        "Commit": "a73c12d2802ddca333d517d7db4460563b85bdb6",
+        "Fingerprint": "a73c12d2802ddca333d517d7db4460563b85bdb6:tests/utils/redaction.test.ts:generic-api-key:34",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "tests/utils/redaction.test.ts",
+        "StartLine": 36,
+        "EndLine": 36,
+        "Commit": "a73c12d2802ddca333d517d7db4460563b85bdb6",
+        "Fingerprint": "a73c12d2802ddca333d517d7db4460563b85bdb6:tests/utils/redaction.test.ts:generic-api-key:36",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "gcp-api-key",
+        "File": "tests/utils/redaction.test.ts",
+        "StartLine": 36,
+        "EndLine": 36,
+        "Commit": "a73c12d2802ddca333d517d7db4460563b85bdb6",
+        "Fingerprint": "a73c12d2802ddca333d517d7db4460563b85bdb6:tests/utils/redaction.test.ts:gcp-api-key:36",
+        "Description": "Uncovered a GCP API key, which could lead to unauthorized access to Google Cloud services and data breaches."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "claude-mem-cursor/skills/agent-cost-report/scripts/tests/fixtures/report-7day.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:claude-mem-cursor/skills/agent-cost-report/scripts/tests/fixtures/report-7day.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "claude-mem-cursor/skills/agent-cost-report/scripts/tests/fixtures/report-1day.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:claude-mem-cursor/skills/agent-cost-report/scripts/tests/fixtures/report-1day.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "claude-mem-cursor/skills/agent-cost-report/scripts/tests/fixtures/report-30day.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:claude-mem-cursor/skills/agent-cost-report/scripts/tests/fixtures/report-30day.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "claude-mem-cursor/skills/agent-cost-report/scripts/tests/fixtures/report-session.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:claude-mem-cursor/skills/agent-cost-report/scripts/tests/fixtures/report-session.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "claude-mem-cursor/skills/agent-cost-report/scripts/tests/fixtures/report-empty.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:claude-mem-cursor/skills/agent-cost-report/scripts/tests/fixtures/report-empty.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "claude-mem-grok-bot/skills/agent-cost-report/scripts/tests/fixtures/report-1day.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:claude-mem-grok-bot/skills/agent-cost-report/scripts/tests/fixtures/report-1day.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "claude-mem-grok-bot/skills/agent-cost-report/scripts/tests/fixtures/report-7day.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:claude-mem-grok-bot/skills/agent-cost-report/scripts/tests/fixtures/report-7day.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "claude-mem-grok-bot/skills/agent-cost-report/scripts/tests/fixtures/report-empty.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:claude-mem-grok-bot/skills/agent-cost-report/scripts/tests/fixtures/report-empty.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "claude-mem-grok-bot/skills/agent-cost-report/scripts/tests/fixtures/report-session.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:claude-mem-grok-bot/skills/agent-cost-report/scripts/tests/fixtures/report-session.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "claude-mem-grok-bot/skills/agent-cost-report/scripts/tests/fixtures/report-30day.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:claude-mem-grok-bot/skills/agent-cost-report/scripts/tests/fixtures/report-30day.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "cowork/skills/agent-cost-report/scripts/tests/fixtures/report-1day.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:cowork/skills/agent-cost-report/scripts/tests/fixtures/report-1day.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "cowork/skills/agent-cost-report/scripts/tests/fixtures/report-session.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:cowork/skills/agent-cost-report/scripts/tests/fixtures/report-session.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "cowork/skills/agent-cost-report/scripts/tests/fixtures/report-7day.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:cowork/skills/agent-cost-report/scripts/tests/fixtures/report-7day.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "cowork/skills/agent-cost-report/scripts/tests/fixtures/report-empty.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:cowork/skills/agent-cost-report/scripts/tests/fixtures/report-empty.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "cowork/skills/agent-cost-report/scripts/tests/fixtures/report-30day.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:cowork/skills/agent-cost-report/scripts/tests/fixtures/report-30day.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "openclaw/skills/agent-cost-report/scripts/tests/fixtures/report-session.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:openclaw/skills/agent-cost-report/scripts/tests/fixtures/report-session.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "openclaw/skills/agent-cost-report/scripts/tests/fixtures/report-empty.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:openclaw/skills/agent-cost-report/scripts/tests/fixtures/report-empty.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "openclaw/skills/agent-cost-report/scripts/tests/fixtures/report-30day.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:openclaw/skills/agent-cost-report/scripts/tests/fixtures/report-30day.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "openclaw/skills/agent-cost-report/scripts/tests/fixtures/report-7day.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:openclaw/skills/agent-cost-report/scripts/tests/fixtures/report-7day.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "openclaw/skills/agent-cost-report/scripts/tests/fixtures/report-1day.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:openclaw/skills/agent-cost-report/scripts/tests/fixtures/report-1day.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/skills/agent-cost-report/scripts/tests/fixtures/report-empty.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:plugin/skills/agent-cost-report/scripts/tests/fixtures/report-empty.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/skills/agent-cost-report/scripts/tests/fixtures/report-session.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:plugin/skills/agent-cost-report/scripts/tests/fixtures/report-session.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/skills/agent-cost-report/scripts/tests/fixtures/report-7day.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:plugin/skills/agent-cost-report/scripts/tests/fixtures/report-7day.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/skills/agent-cost-report/scripts/tests/fixtures/report-1day.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:plugin/skills/agent-cost-report/scripts/tests/fixtures/report-1day.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/skills/agent-cost-report/scripts/tests/fixtures/report-30day.json",
+        "StartLine": 69,
+        "EndLine": 69,
+        "Commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d",
+        "Fingerprint": "8c2c3f5b39d2304ec282b450ef0912336447fe5d:plugin/skills/agent-cost-report/scripts/tests/fixtures/report-30day.json:generic-api-key:69",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "tests/telemetry/error-scrub.test.ts",
+        "StartLine": 129,
+        "EndLine": 129,
+        "Commit": "0e7b03f1922de2f4c4204febb7b6c4387c539d5e",
+        "Fingerprint": "0e7b03f1922de2f4c4204febb7b6c4387c539d5e:tests/telemetry/error-scrub.test.ts:generic-api-key:129",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "tests/telemetry/error-scrub.test.ts",
+        "StartLine": 231,
+        "EndLine": 231,
+        "Commit": "0e7b03f1922de2f4c4204febb7b6c4387c539d5e",
+        "Fingerprint": "0e7b03f1922de2f4c4204febb7b6c4387c539d5e:tests/telemetry/error-scrub.test.ts:generic-api-key:231",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 548,
+        "EndLine": 548,
+        "Commit": "2921883de3dafd3cacae0a10239df80cd7786e1f",
+        "Fingerprint": "2921883de3dafd3cacae0a10239df80cd7786e1f:plugin/scripts/server-service.cjs:generic-api-key:548",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 548,
+        "EndLine": 548,
+        "Commit": "adce0fdfaf1cd46646bbd0b22ae74cbd460ed787",
+        "Fingerprint": "adce0fdfaf1cd46646bbd0b22ae74cbd460ed787:plugin/scripts/server-service.cjs:generic-api-key:548",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 546,
+        "EndLine": 546,
+        "Commit": "4d323afe728514e772d4d25dac8cd1e4af0fd5ed",
+        "Fingerprint": "4d323afe728514e772d4d25dac8cd1e4af0fd5ed:plugin/scripts/server-service.cjs:generic-api-key:546",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 548,
+        "EndLine": 548,
+        "Commit": "96f04a9fe2779a9841bc1e99e61aec0a74032647",
+        "Fingerprint": "96f04a9fe2779a9841bc1e99e61aec0a74032647:plugin/scripts/server-service.cjs:generic-api-key:548",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 548,
+        "EndLine": 548,
+        "Commit": "85fc991c6507cae1af4269f15bb7a4f6ada1195d",
+        "Fingerprint": "85fc991c6507cae1af4269f15bb7a4f6ada1195d:plugin/scripts/server-service.cjs:generic-api-key:548",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 546,
+        "EndLine": 546,
+        "Commit": "c61f8be53d4cd434be6a277b4966f37e6b161a91",
+        "Fingerprint": "c61f8be53d4cd434be6a277b4966f37e6b161a91:plugin/scripts/server-service.cjs:generic-api-key:546",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 548,
+        "EndLine": 548,
+        "Commit": "ed57a511f5dbf84e75c9a785df818c43b66b5849",
+        "Fingerprint": "ed57a511f5dbf84e75c9a785df818c43b66b5849:plugin/scripts/server-service.cjs:generic-api-key:548",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 548,
+        "EndLine": 548,
+        "Commit": "2f4de2ba251e22af756d838eec4f43729f83def3",
+        "Fingerprint": "2f4de2ba251e22af756d838eec4f43729f83def3:plugin/scripts/server-service.cjs:generic-api-key:548",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 548,
+        "EndLine": 548,
+        "Commit": "d796d9c6204b3df3188e95eb362fa97b3e063a0b",
+        "Fingerprint": "d796d9c6204b3df3188e95eb362fa97b3e063a0b:plugin/scripts/server-service.cjs:generic-api-key:548",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 548,
+        "EndLine": 548,
+        "Commit": "c51d62a4db33d19304031c04005e39ba482280bf",
+        "Fingerprint": "c51d62a4db33d19304031c04005e39ba482280bf:plugin/scripts/server-service.cjs:generic-api-key:548",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 548,
+        "EndLine": 548,
+        "Commit": "ec9e3e32d8562935d81930764093995e53b72e75",
+        "Fingerprint": "ec9e3e32d8562935d81930764093995e53b72e75:plugin/scripts/server-service.cjs:generic-api-key:548",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 548,
+        "EndLine": 548,
+        "Commit": "9841dd41203f049dbd6052dab22ef255e317fa4d",
+        "Fingerprint": "9841dd41203f049dbd6052dab22ef255e317fa4d:plugin/scripts/server-service.cjs:generic-api-key:548",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 548,
+        "EndLine": 548,
+        "Commit": "47c06ff9a1fd58f26686d769075ebed0a3803ad1",
+        "Fingerprint": "47c06ff9a1fd58f26686d769075ebed0a3803ad1:plugin/scripts/server-service.cjs:generic-api-key:548",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 539,
+        "EndLine": 539,
+        "Commit": "4890e14c4bcf37bbdb154579b4951748345a2594",
+        "Fingerprint": "4890e14c4bcf37bbdb154579b4951748345a2594:plugin/scripts/server-service.cjs:generic-api-key:539",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 539,
+        "EndLine": 539,
+        "Commit": "22879ef523ec8cdd11ac237625723cebda36faae",
+        "Fingerprint": "22879ef523ec8cdd11ac237625723cebda36faae:plugin/scripts/server-service.cjs:generic-api-key:539",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 538,
+        "EndLine": 538,
+        "Commit": "9811b0eb787131fe0567a5bcb3f1c5b3d1ef0139",
+        "Fingerprint": "9811b0eb787131fe0567a5bcb3f1c5b3d1ef0139:plugin/scripts/server-service.cjs:generic-api-key:538",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 538,
+        "EndLine": 538,
+        "Commit": "29279d930684ce15a43ec5b05a4345bf1d6aba2e",
+        "Fingerprint": "29279d930684ce15a43ec5b05a4345bf1d6aba2e:plugin/scripts/server-service.cjs:generic-api-key:538",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 538,
+        "EndLine": 538,
+        "Commit": "fd0ecf023336ce631c8a5cd7b70cdeca8f0e82e0",
+        "Fingerprint": "fd0ecf023336ce631c8a5cd7b70cdeca8f0e82e0:plugin/scripts/server-service.cjs:generic-api-key:538",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 538,
+        "EndLine": 538,
+        "Commit": "4da9ffc68c5ed3ad698298dc47db115fbdba6e81",
+        "Fingerprint": "4da9ffc68c5ed3ad698298dc47db115fbdba6e81:plugin/scripts/server-service.cjs:generic-api-key:538",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 538,
+        "EndLine": 538,
+        "Commit": "263d8c00837eb50951bdd16ebf9beee84add9126",
+        "Fingerprint": "263d8c00837eb50951bdd16ebf9beee84add9126:plugin/scripts/server-service.cjs:generic-api-key:538",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 538,
+        "EndLine": 538,
+        "Commit": "89ca057a464fd7fb127c9d17dd02f77ef907a13c",
+        "Fingerprint": "89ca057a464fd7fb127c9d17dd02f77ef907a13c:plugin/scripts/server-service.cjs:generic-api-key:538",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 538,
+        "EndLine": 538,
+        "Commit": "b25f56d9552faea2c3b9047504cde51524338c4a",
+        "Fingerprint": "b25f56d9552faea2c3b9047504cde51524338c4a:plugin/scripts/server-service.cjs:generic-api-key:538",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 538,
+        "EndLine": 538,
+        "Commit": "60310f86bffde9b1258ab3f0efa0bba671face56",
+        "Fingerprint": "60310f86bffde9b1258ab3f0efa0bba671face56:plugin/scripts/server-service.cjs:generic-api-key:538",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "curl-auth-header",
+        "File": "cowork/test/run-tests.mjs",
+        "StartLine": 91,
+        "EndLine": 91,
+        "Commit": "2dcb556d266d85b2249cd693899774c712b17ddd",
+        "Fingerprint": "2dcb556d266d85b2249cd693899774c712b17ddd:cowork/test/run-tests.mjs:curl-auth-header:91",
+        "Description": "Discovered a potential authorization token provided in a curl command header, which could compromise the curl accessed resource."
+      },
+      {
+        "RuleID": "curl-auth-header",
+        "File": "cowork/test/run-tests.mjs",
+        "StartLine": 130,
+        "EndLine": 130,
+        "Commit": "2dcb556d266d85b2249cd693899774c712b17ddd",
+        "Fingerprint": "2dcb556d266d85b2249cd693899774c712b17ddd:cowork/test/run-tests.mjs:curl-auth-header:130",
+        "Description": "Discovered a potential authorization token provided in a curl command header, which could compromise the curl accessed resource."
+      },
+      {
+        "RuleID": "curl-auth-header",
+        "File": "cowork/test/run-tests.mjs",
+        "StartLine": 137,
+        "EndLine": 137,
+        "Commit": "2dcb556d266d85b2249cd693899774c712b17ddd",
+        "Fingerprint": "2dcb556d266d85b2249cd693899774c712b17ddd:cowork/test/run-tests.mjs:curl-auth-header:137",
+        "Description": "Discovered a potential authorization token provided in a curl command header, which could compromise the curl accessed resource."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 538,
+        "EndLine": 538,
+        "Commit": "acb652cd1234bce471d34f5f28ed902b3037bb5e",
+        "Fingerprint": "acb652cd1234bce471d34f5f28ed902b3037bb5e:plugin/scripts/server-service.cjs:generic-api-key:538",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 536,
+        "EndLine": 536,
+        "Commit": "27c759b99b3226d04e9805dca757c382d5fba396",
+        "Fingerprint": "27c759b99b3226d04e9805dca757c382d5fba396:plugin/scripts/server-service.cjs:generic-api-key:536",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 538,
+        "EndLine": 538,
+        "Commit": "7a31d02bd497b08d6ca93181f6ebaf153918e9df",
+        "Fingerprint": "7a31d02bd497b08d6ca93181f6ebaf153918e9df:plugin/scripts/server-service.cjs:generic-api-key:538",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "curl-auth-header",
+        "File": "plans/2026-08-16-observer-error-path.md",
+        "StartLine": 223,
+        "EndLine": 223,
+        "Commit": "3bf191450316a62efa9c05c2930aab3beb94c675",
+        "Fingerprint": "3bf191450316a62efa9c05c2930aab3beb94c675:plans/2026-08-16-observer-error-path.md:curl-auth-header:223",
+        "Description": "Discovered a potential authorization token provided in a curl command header, which could compromise the curl accessed resource."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 538,
+        "EndLine": 538,
+        "Commit": "da4bcadf8e3795031d96602f4bd8c80f3294d816",
+        "Fingerprint": "da4bcadf8e3795031d96602f4bd8c80f3294d816:plugin/scripts/server-service.cjs:generic-api-key:538",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 537,
+        "EndLine": 537,
+        "Commit": "73533cd7fc45c9cff3c0a7d1e3f59fae8af273da",
+        "Fingerprint": "73533cd7fc45c9cff3c0a7d1e3f59fae8af273da:plugin/scripts/server-service.cjs:generic-api-key:537",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 536,
+        "EndLine": 536,
+        "Commit": "4de9ebe892da4a0921b26481b893504ed0938f7d",
+        "Fingerprint": "4de9ebe892da4a0921b26481b893504ed0938f7d:plugin/scripts/server-service.cjs:generic-api-key:536",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 538,
+        "EndLine": 538,
+        "Commit": "eb9b211fa9152380b38ea94313a97d89601dce47",
+        "Fingerprint": "eb9b211fa9152380b38ea94313a97d89601dce47:plugin/scripts/server-service.cjs:generic-api-key:538",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 536,
+        "EndLine": 536,
+        "Commit": "70968263ccc59b556eafe335dd50cf27b613b9c2",
+        "Fingerprint": "70968263ccc59b556eafe335dd50cf27b613b9c2:plugin/scripts/server-service.cjs:generic-api-key:536",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 536,
+        "EndLine": 536,
+        "Commit": "712a6c79875f838edbc4a33d9e5a52bdd968f464",
+        "Fingerprint": "712a6c79875f838edbc4a33d9e5a52bdd968f464:plugin/scripts/server-service.cjs:generic-api-key:536",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 538,
+        "EndLine": 538,
+        "Commit": "2319050541e5f2f9493279c04fee052557a38adb",
+        "Fingerprint": "2319050541e5f2f9493279c04fee052557a38adb:plugin/scripts/server-service.cjs:generic-api-key:538",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "200457c7f50de1a08573b78d6e0e39378c30ff7e",
+        "Fingerprint": "200457c7f50de1a08573b78d6e0e39378c30ff7e:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "7d3f1879ebd0ab2f4bf347854ace96e44bf926aa",
+        "Fingerprint": "7d3f1879ebd0ab2f4bf347854ace96e44bf926aa:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 537,
+        "EndLine": 537,
+        "Commit": "90aa9a1ebc8b03b5394d050fc2f787de5f421d77",
+        "Fingerprint": "90aa9a1ebc8b03b5394d050fc2f787de5f421d77:plugin/scripts/server-service.cjs:generic-api-key:537",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 537,
+        "EndLine": 537,
+        "Commit": "3bf191450316a62efa9c05c2930aab3beb94c675",
+        "Fingerprint": "3bf191450316a62efa9c05c2930aab3beb94c675:plugin/scripts/server-service.cjs:generic-api-key:537",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 536,
+        "EndLine": 536,
+        "Commit": "a710bfe4c01c06d86d74e7f86bc2127a7e860141",
+        "Fingerprint": "a710bfe4c01c06d86d74e7f86bc2127a7e860141:plugin/scripts/server-service.cjs:generic-api-key:536",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 536,
+        "EndLine": 536,
+        "Commit": "3120a06aa9d13c799a5393f34267916292478f28",
+        "Fingerprint": "3120a06aa9d13c799a5393f34267916292478f28:plugin/scripts/server-service.cjs:generic-api-key:536",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "a4e25d210fc121f6c307291c943331641e3a6510",
+        "Fingerprint": "a4e25d210fc121f6c307291c943331641e3a6510:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 537,
+        "EndLine": 537,
+        "Commit": "a38d51169bf51d9531144d985dfa66c6acdad921",
+        "Fingerprint": "a38d51169bf51d9531144d985dfa66c6acdad921:plugin/scripts/server-service.cjs:generic-api-key:537",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "21434061901629e2b78d75328f39536a8a3caec8",
+        "Fingerprint": "21434061901629e2b78d75328f39536a8a3caec8:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 537,
+        "EndLine": 537,
+        "Commit": "9326fae06a528201fe3f31ba3065249bc82b2817",
+        "Fingerprint": "9326fae06a528201fe3f31ba3065249bc82b2817:plugin/scripts/server-service.cjs:generic-api-key:537",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "de4930c0410ec9badb21dff98dd7bf409d5aac20",
+        "Fingerprint": "de4930c0410ec9badb21dff98dd7bf409d5aac20:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "ce921328dbd6888beb5a67d70bc7ea2604e381dd",
+        "Fingerprint": "ce921328dbd6888beb5a67d70bc7ea2604e381dd:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "2db6a1f506ca986ab6c67fae6e01177901b0aba5",
+        "Fingerprint": "2db6a1f506ca986ab6c67fae6e01177901b0aba5:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "25f4b7868d377d0e09755c1a042d5bb972e736e4",
+        "Fingerprint": "25f4b7868d377d0e09755c1a042d5bb972e736e4:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "09391a740ea072ee8bcca46d60c780ac295615b9",
+        "Fingerprint": "09391a740ea072ee8bcca46d60c780ac295615b9:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "4ad2383f63be8d542da682c75cb7968f4737c1c9",
+        "Fingerprint": "4ad2383f63be8d542da682c75cb7968f4737c1c9:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "7787d0e20b1f7192839167c425ea2c0a1c8c9182",
+        "Fingerprint": "7787d0e20b1f7192839167c425ea2c0a1c8c9182:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "b3eafc82b981fba953331b8b9fb98519daba2f8b",
+        "Fingerprint": "b3eafc82b981fba953331b8b9fb98519daba2f8b:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "4597398c4c74cc77898394d67ce157f3e6138aa1",
+        "Fingerprint": "4597398c4c74cc77898394d67ce157f3e6138aa1:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "1e3b2853ff5c01e869c1c38b4d211a8cca853a66",
+        "Fingerprint": "1e3b2853ff5c01e869c1c38b4d211a8cca853a66:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "1d7898fb776daf253a93d2f3a3a8635fdfe3b50b",
+        "Fingerprint": "1d7898fb776daf253a93d2f3a3a8635fdfe3b50b:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "6fc796e9269e934e7fb75d9225573e7eca4da99f",
+        "Fingerprint": "6fc796e9269e934e7fb75d9225573e7eca4da99f:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "a1b50d6a275e01cc390a989286f8468a7a9deadf",
+        "Fingerprint": "a1b50d6a275e01cc390a989286f8468a7a9deadf:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "d03392f8dac616f82950c8ccf3b7870f3d484f17",
+        "Fingerprint": "d03392f8dac616f82950c8ccf3b7870f3d484f17:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "af232746f52c03b7e3dd61264692075d1580d49e",
+        "Fingerprint": "af232746f52c03b7e3dd61264692075d1580d49e:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "2e15df0e8daa21d875cd45e5a5672adb72179147",
+        "Fingerprint": "2e15df0e8daa21d875cd45e5a5672adb72179147:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 532,
+        "EndLine": 532,
+        "Commit": "92997115e58a077ea8fbf6d934278e94036309f5",
+        "Fingerprint": "92997115e58a077ea8fbf6d934278e94036309f5:plugin/scripts/server-service.cjs:generic-api-key:532",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 535,
+        "EndLine": 535,
+        "Commit": "b20024b77216fc067a914bd066d1340cc1f7f560",
+        "Fingerprint": "b20024b77216fc067a914bd066d1340cc1f7f560:plugin/scripts/server-service.cjs:generic-api-key:535",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 532,
+        "EndLine": 532,
+        "Commit": "49e5dadfdf79acf5397566ba740b230a54304af5",
+        "Fingerprint": "49e5dadfdf79acf5397566ba740b230a54304af5:plugin/scripts/server-service.cjs:generic-api-key:532",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 532,
+        "EndLine": 532,
+        "Commit": "41113d345470b28f37a4e17f2b96f5adb562b3f4",
+        "Fingerprint": "41113d345470b28f37a4e17f2b96f5adb562b3f4:plugin/scripts/server-service.cjs:generic-api-key:532",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 532,
+        "EndLine": 532,
+        "Commit": "3695d1160127fbde516867959567c81285872b9d",
+        "Fingerprint": "3695d1160127fbde516867959567c81285872b9d:plugin/scripts/server-service.cjs:generic-api-key:532",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 533,
+        "EndLine": 533,
+        "Commit": "39dd77d9e3f9f4eaa72658ebe42fdf810508ab16",
+        "Fingerprint": "39dd77d9e3f9f4eaa72658ebe42fdf810508ab16:plugin/scripts/server-service.cjs:generic-api-key:533",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 532,
+        "EndLine": 532,
+        "Commit": "2a0a4073407b13917f9d4e5707ed143ad05d8ed3",
+        "Fingerprint": "2a0a4073407b13917f9d4e5707ed143ad05d8ed3:plugin/scripts/server-service.cjs:generic-api-key:532",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 532,
+        "EndLine": 532,
+        "Commit": "36cb8fcb4928a626421762bac42b258eeb212495",
+        "Fingerprint": "36cb8fcb4928a626421762bac42b258eeb212495:plugin/scripts/server-service.cjs:generic-api-key:532",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "jwt",
+        "File": "tests/telemetry/error-scrub.test.ts",
+        "StartLine": 127,
+        "EndLine": 127,
+        "Commit": "580621c936dff3333aaba53c9adaaf80b878a75c",
+        "Fingerprint": "580621c936dff3333aaba53c9adaaf80b878a75c:tests/telemetry/error-scrub.test.ts:jwt:127",
+        "Description": "Uncovered a JSON Web Token, which may lead to unauthorized access to web applications and sensitive user data."
+      },
+      {
+        "RuleID": "aws-access-token",
+        "File": "tests/telemetry/error-scrub.test.ts",
+        "StartLine": 142,
+        "EndLine": 142,
+        "Commit": "580621c936dff3333aaba53c9adaaf80b878a75c",
+        "Fingerprint": "580621c936dff3333aaba53c9adaaf80b878a75c:tests/telemetry/error-scrub.test.ts:aws-access-token:142",
+        "Description": "Identified a pattern that may indicate AWS credentials, risking unauthorized cloud resource access and data breaches on AWS platforms."
+      },
+      {
+        "RuleID": "aws-access-token",
+        "File": "tests/telemetry/error-scrub.test.ts",
+        "StartLine": 143,
+        "EndLine": 143,
+        "Commit": "580621c936dff3333aaba53c9adaaf80b878a75c",
+        "Fingerprint": "580621c936dff3333aaba53c9adaaf80b878a75c:tests/telemetry/error-scrub.test.ts:aws-access-token:143",
+        "Description": "Identified a pattern that may indicate AWS credentials, risking unauthorized cloud resource access and data breaches on AWS platforms."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 532,
+        "EndLine": 532,
+        "Commit": "482b4f0a15adca88e3924fc05fe6c5ce647dcbc0",
+        "Fingerprint": "482b4f0a15adca88e3924fc05fe6c5ce647dcbc0:plugin/scripts/server-service.cjs:generic-api-key:532",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 498,
+        "EndLine": 498,
+        "Commit": "f1b8fdb28a1982229084fab2c9bade67b4b3c03d",
+        "Fingerprint": "f1b8fdb28a1982229084fab2c9bade67b4b3c03d:plugin/scripts/server-service.cjs:generic-api-key:498",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 528,
+        "EndLine": 528,
+        "Commit": "5bd7da778e61dd277007065af93355a287791352",
+        "Fingerprint": "5bd7da778e61dd277007065af93355a287791352:plugin/scripts/server-service.cjs:generic-api-key:528",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 498,
+        "EndLine": 498,
+        "Commit": "348d9ee406cf7a01781c662c7bbf0ba2922dd110",
+        "Fingerprint": "348d9ee406cf7a01781c662c7bbf0ba2922dd110:plugin/scripts/server-beta-service.cjs:generic-api-key:498",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 464,
+        "EndLine": 464,
+        "Commit": "ebe613308983d5674748d226b2d1326d82e30ec3",
+        "Fingerprint": "ebe613308983d5674748d226b2d1326d82e30ec3:plugin/scripts/server-beta-service.cjs:generic-api-key:464",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 464,
+        "EndLine": 464,
+        "Commit": "c520c8f2c9f1096dd0a71dff8e8f7ac10cfc7357",
+        "Fingerprint": "c520c8f2c9f1096dd0a71dff8e8f7ac10cfc7357:plugin/scripts/server-beta-service.cjs:generic-api-key:464",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 464,
+        "EndLine": 464,
+        "Commit": "a4e16b9345df14a4bcbc679421417c01739e4537",
+        "Fingerprint": "a4e16b9345df14a4bcbc679421417c01739e4537:plugin/scripts/server-beta-service.cjs:generic-api-key:464",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 464,
+        "EndLine": 464,
+        "Commit": "16b2c72d572596ffa1eee319cf3756f038dafde8",
+        "Fingerprint": "16b2c72d572596ffa1eee319cf3756f038dafde8:plugin/scripts/server-beta-service.cjs:generic-api-key:464",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 464,
+        "EndLine": 464,
+        "Commit": "580621c936dff3333aaba53c9adaaf80b878a75c",
+        "Fingerprint": "580621c936dff3333aaba53c9adaaf80b878a75c:plugin/scripts/server-beta-service.cjs:generic-api-key:464",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 464,
+        "EndLine": 464,
+        "Commit": "eac30a15708c5361493463277e9c291b1bfda5a1",
+        "Fingerprint": "eac30a15708c5361493463277e9c291b1bfda5a1:plugin/scripts/server-beta-service.cjs:generic-api-key:464",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 464,
+        "EndLine": 464,
+        "Commit": "82361e782610906c29e5e33e7a934474ece44eee",
+        "Fingerprint": "82361e782610906c29e5e33e7a934474ece44eee:plugin/scripts/server-beta-service.cjs:generic-api-key:464",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 464,
+        "EndLine": 464,
+        "Commit": "3b1014a305b8ec63f49463a8af191f8610907a20",
+        "Fingerprint": "3b1014a305b8ec63f49463a8af191f8610907a20:plugin/scripts/server-beta-service.cjs:generic-api-key:464",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 464,
+        "EndLine": 464,
+        "Commit": "e9ca97021475f94c468e2f9064504817856adae4",
+        "Fingerprint": "e9ca97021475f94c468e2f9064504817856adae4:plugin/scripts/server-beta-service.cjs:generic-api-key:464",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 464,
+        "EndLine": 464,
+        "Commit": "edc5cf7d59780e10dfd7523540cdc7ca5a458502",
+        "Fingerprint": "edc5cf7d59780e10dfd7523540cdc7ca5a458502:plugin/scripts/server-beta-service.cjs:generic-api-key:464",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 464,
+        "EndLine": 464,
+        "Commit": "608611b6276b4f9e57da48f657037c308adfd1ef",
+        "Fingerprint": "608611b6276b4f9e57da48f657037c308adfd1ef:plugin/scripts/server-beta-service.cjs:generic-api-key:464",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 464,
+        "EndLine": 464,
+        "Commit": "b90ec0217787e603a4d8380b00a53f80ab5758ae",
+        "Fingerprint": "b90ec0217787e603a4d8380b00a53f80ab5758ae:plugin/scripts/server-beta-service.cjs:generic-api-key:464",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 464,
+        "EndLine": 464,
+        "Commit": "c0b96288a79eae38ca92c662fb3c6468ca7421a5",
+        "Fingerprint": "c0b96288a79eae38ca92c662fb3c6468ca7421a5:plugin/scripts/server-beta-service.cjs:generic-api-key:464",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 464,
+        "EndLine": 464,
+        "Commit": "3759d99010bdbf65cc7ed7105f0882b02b0cfae2",
+        "Fingerprint": "3759d99010bdbf65cc7ed7105f0882b02b0cfae2:plugin/scripts/server-beta-service.cjs:generic-api-key:464",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 464,
+        "EndLine": 464,
+        "Commit": "6259b20c90eac5ce60079565192f39c99fec09ac",
+        "Fingerprint": "6259b20c90eac5ce60079565192f39c99fec09ac:plugin/scripts/server-beta-service.cjs:generic-api-key:464",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "docker/e2e/server-beta-e2e.mjs",
+        "StartLine": 152,
+        "EndLine": 152,
+        "Commit": "e7bbb2a9aaa755244d902e2a9807758a14f97ee5",
+        "Fingerprint": "e7bbb2a9aaa755244d902e2a9807758a14f97ee5:docker/e2e/server-beta-e2e.mjs:generic-api-key:152",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 459,
+        "EndLine": 459,
+        "Commit": "4016a8c43aec1820065f77c85c0e53d563c5d792",
+        "Fingerprint": "4016a8c43aec1820065f77c85c0e53d563c5d792:plugin/scripts/server-beta-service.cjs:generic-api-key:459",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 459,
+        "EndLine": 459,
+        "Commit": "8151cd5a8f886cc8bafaa0441b699a1c88ad9e4d",
+        "Fingerprint": "8151cd5a8f886cc8bafaa0441b699a1c88ad9e4d:plugin/scripts/server-beta-service.cjs:generic-api-key:459",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/worker-service.cjs",
+        "StartLine": 1347,
+        "EndLine": 1347,
+        "Commit": "34c734a1a4b810da157072e835882295c033d33a",
+        "Fingerprint": "34c734a1a4b810da157072e835882295c033d33a:plugin/scripts/worker-service.cjs:generic-api-key:1347",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 459,
+        "EndLine": 459,
+        "Commit": "cf450cec0053e392102b2ad8900f467368a3c690",
+        "Fingerprint": "cf450cec0053e392102b2ad8900f467368a3c690:plugin/scripts/server-beta-service.cjs:generic-api-key:459",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 459,
+        "EndLine": 459,
+        "Commit": "b45515c5fed340d71a855d20e52502e1e4b3e720",
+        "Fingerprint": "b45515c5fed340d71a855d20e52502e1e4b3e720:plugin/scripts/server-beta-service.cjs:generic-api-key:459",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-service.cjs",
+        "StartLine": 458,
+        "EndLine": 458,
+        "Commit": "34c734a1a4b810da157072e835882295c033d33a",
+        "Fingerprint": "34c734a1a4b810da157072e835882295c033d33a:plugin/scripts/server-service.cjs:generic-api-key:458",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 459,
+        "EndLine": 459,
+        "Commit": "7a33685c4664b2153f493482261a13906d4e3e5f",
+        "Fingerprint": "7a33685c4664b2153f493482261a13906d4e3e5f:plugin/scripts/server-beta-service.cjs:generic-api-key:459",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 459,
+        "EndLine": 459,
+        "Commit": "d13fc437fa76d4fc6a5d09b2bd78e6d051acb55c",
+        "Fingerprint": "d13fc437fa76d4fc6a5d09b2bd78e6d051acb55c:plugin/scripts/server-beta-service.cjs:generic-api-key:459",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 458,
+        "EndLine": 458,
+        "Commit": "33ae79ec0d80be81e645a99dc9b93762890c93c5",
+        "Fingerprint": "33ae79ec0d80be81e645a99dc9b93762890c93c5:plugin/scripts/server-beta-service.cjs:generic-api-key:458",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 458,
+        "EndLine": 458,
+        "Commit": "7a6eaca5657ada184b2e0cf9d36c2f646974154a",
+        "Fingerprint": "7a6eaca5657ada184b2e0cf9d36c2f646974154a:plugin/scripts/server-beta-service.cjs:generic-api-key:458",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/server-beta-service.cjs",
+        "StartLine": 471,
+        "EndLine": 471,
+        "Commit": "e4ec654355cfb85164a6449b9954a290386282a0",
+        "Fingerprint": "e4ec654355cfb85164a6449b9954a290386282a0:plugin/scripts/server-beta-service.cjs:generic-api-key:471",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/worker-service.cjs",
+        "StartLine": 1360,
+        "EndLine": 1360,
+        "Commit": "e4ec654355cfb85164a6449b9954a290386282a0",
+        "Fingerprint": "e4ec654355cfb85164a6449b9954a290386282a0:plugin/scripts/worker-service.cjs:generic-api-key:1360",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/worker-service.cjs",
+        "StartLine": 631,
+        "EndLine": 631,
+        "Commit": "5d79bb7a7adba9f5607b210a4ce3f264e8358f9b",
+        "Fingerprint": "5d79bb7a7adba9f5607b210a4ce3f264e8358f9b:plugin/scripts/worker-service.cjs:generic-api-key:631",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/worker-service.cjs",
+        "StartLine": 631,
+        "EndLine": 631,
+        "Commit": "ca8421611ccaa778016c4eef9a8ea8ea1beee7ed",
+        "Fingerprint": "ca8421611ccaa778016c4eef9a8ea8ea1beee7ed:plugin/scripts/worker-service.cjs:generic-api-key:631",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "plugin/scripts/worker-service.cjs",
+        "StartLine": 681,
+        "EndLine": 681,
+        "Commit": "224567f98059e6d0e53effcfd559cdd5628dd6ac",
+        "Fingerprint": "224567f98059e6d0e53effcfd559cdd5628dd6ac:plugin/scripts/worker-service.cjs:generic-api-key:681",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "docs/public/usage/private-tags.mdx",
+        "StartLine": 107,
+        "EndLine": 107,
+        "Commit": "2b223b7cd9ddfee84a2f6fde2dafb6687342bf99",
+        "Fingerprint": "2b223b7cd9ddfee84a2f6fde2dafb6687342bf99:docs/public/usage/private-tags.mdx:generic-api-key:107",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      },
+      {
+        "RuleID": "generic-api-key",
+        "File": "tests/user-prompt-tag-stripping.test.ts",
+        "StartLine": 65,
+        "EndLine": 65,
+        "Commit": "2b223b7cd9ddfee84a2f6fde2dafb6687342bf99",
+        "Fingerprint": "2b223b7cd9ddfee84a2f6fde2dafb6687342bf99:tests/user-prompt-tag-stripping.test.ts:generic-api-key:65",
+        "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+      }
+    ]
+  },
+  "proposed_secret_gate": {
+    "check": "gitleaks-history",
+    "version": "8.30.1",
+    "exit_code": 1,
+    "status": "FAIL",
+    "candidate_count": 155,
+    "candidates": [
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 580,
+        "commit": "073a169ee156b58fd937c55b1a1302aa86e868e0"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 580,
+        "commit": "bd847dff8e464855b997e584f4230e8bf86774e3"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 580,
+        "commit": "350496aeb205e102da9302f01a2f2e5fa9670ece"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 578,
+        "commit": "a1a1f0ab006750998f7ca9207144a95f62216500"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 576,
+        "commit": "e90297188194fd7d13fb720681f2db2cddec534b"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 578,
+        "commit": "7bd08ff9cded4bc9a674a9075998f2f8e0835092"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "tests/worker/openrouter-session-trace.test.ts",
+        "line": 244,
+        "commit": "a2c5124ffd36aae0a0400da4a9cfca8faee68989"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "tests/worker/http/routes/settings-routes-unchanged-values.test.ts",
+        "line": 137,
+        "commit": "d5cf756d6d322441f8907b7dd6f563f5144748ee"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "tests/storage/sqlite/server-storage.test.ts",
+        "line": 46,
+        "commit": "c95b934f6b481972bd3417bd78fb2b63a77813a6"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "tests/utils/redaction-coverage.test.ts",
+        "line": 16,
+        "commit": "c95b934f6b481972bd3417bd78fb2b63a77813a6"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 573,
+        "commit": "94cb08b87271d0a5ee3ab6b241e62727abae7b4b"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "tests/settings-routes-settings-document.test.ts",
+        "line": 73,
+        "commit": "54319a54acf3f87ad1417bf5a0bd312b4e61aa53"
+      },
+      {
+        "rule": "curl-auth-header",
+        "file": "docs/public/usage/auto-redaction.mdx",
+        "line": 8,
+        "commit": "a73c12d2802ddca333d517d7db4460563b85bdb6"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "tests/integration/redaction-wired.test.ts",
+        "line": 7,
+        "commit": "a73c12d2802ddca333d517d7db4460563b85bdb6"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "tests/utils/redaction.test.ts",
+        "line": 34,
+        "commit": "a73c12d2802ddca333d517d7db4460563b85bdb6"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "tests/utils/redaction.test.ts",
+        "line": 36,
+        "commit": "a73c12d2802ddca333d517d7db4460563b85bdb6"
+      },
+      {
+        "rule": "gcp-api-key",
+        "file": "tests/utils/redaction.test.ts",
+        "line": 36,
+        "commit": "a73c12d2802ddca333d517d7db4460563b85bdb6"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "claude-mem-cursor/skills/agent-cost-report/scripts/tests/fixtures/report-1day.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "claude-mem-cursor/skills/agent-cost-report/scripts/tests/fixtures/report-empty.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "claude-mem-cursor/skills/agent-cost-report/scripts/tests/fixtures/report-session.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "claude-mem-cursor/skills/agent-cost-report/scripts/tests/fixtures/report-7day.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "claude-mem-cursor/skills/agent-cost-report/scripts/tests/fixtures/report-30day.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "claude-mem-grok-bot/skills/agent-cost-report/scripts/tests/fixtures/report-1day.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "claude-mem-grok-bot/skills/agent-cost-report/scripts/tests/fixtures/report-session.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "claude-mem-grok-bot/skills/agent-cost-report/scripts/tests/fixtures/report-empty.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "claude-mem-grok-bot/skills/agent-cost-report/scripts/tests/fixtures/report-7day.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "claude-mem-grok-bot/skills/agent-cost-report/scripts/tests/fixtures/report-30day.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "cowork/skills/agent-cost-report/scripts/tests/fixtures/report-1day.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "cowork/skills/agent-cost-report/scripts/tests/fixtures/report-7day.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "cowork/skills/agent-cost-report/scripts/tests/fixtures/report-session.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "cowork/skills/agent-cost-report/scripts/tests/fixtures/report-empty.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "openclaw/skills/agent-cost-report/scripts/tests/fixtures/report-1day.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "openclaw/skills/agent-cost-report/scripts/tests/fixtures/report-empty.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "cowork/skills/agent-cost-report/scripts/tests/fixtures/report-30day.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "openclaw/skills/agent-cost-report/scripts/tests/fixtures/report-7day.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/skills/agent-cost-report/scripts/tests/fixtures/report-1day.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "openclaw/skills/agent-cost-report/scripts/tests/fixtures/report-session.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "openclaw/skills/agent-cost-report/scripts/tests/fixtures/report-30day.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/skills/agent-cost-report/scripts/tests/fixtures/report-empty.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/skills/agent-cost-report/scripts/tests/fixtures/report-session.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/skills/agent-cost-report/scripts/tests/fixtures/report-7day.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/skills/agent-cost-report/scripts/tests/fixtures/report-30day.json",
+        "line": 69,
+        "commit": "8c2c3f5b39d2304ec282b450ef0912336447fe5d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "tests/telemetry/error-scrub.test.ts",
+        "line": 129,
+        "commit": "0e7b03f1922de2f4c4204febb7b6c4387c539d5e"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "tests/telemetry/error-scrub.test.ts",
+        "line": 231,
+        "commit": "0e7b03f1922de2f4c4204febb7b6c4387c539d5e"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 548,
+        "commit": "2921883de3dafd3cacae0a10239df80cd7786e1f"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 548,
+        "commit": "adce0fdfaf1cd46646bbd0b22ae74cbd460ed787"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 546,
+        "commit": "4d323afe728514e772d4d25dac8cd1e4af0fd5ed"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 548,
+        "commit": "96f04a9fe2779a9841bc1e99e61aec0a74032647"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 548,
+        "commit": "85fc991c6507cae1af4269f15bb7a4f6ada1195d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 546,
+        "commit": "c61f8be53d4cd434be6a277b4966f37e6b161a91"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 548,
+        "commit": "ed57a511f5dbf84e75c9a785df818c43b66b5849"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 548,
+        "commit": "d796d9c6204b3df3188e95eb362fa97b3e063a0b"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 548,
+        "commit": "2f4de2ba251e22af756d838eec4f43729f83def3"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 548,
+        "commit": "c51d62a4db33d19304031c04005e39ba482280bf"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 548,
+        "commit": "ec9e3e32d8562935d81930764093995e53b72e75"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 548,
+        "commit": "9841dd41203f049dbd6052dab22ef255e317fa4d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 548,
+        "commit": "47c06ff9a1fd58f26686d769075ebed0a3803ad1"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 539,
+        "commit": "4890e14c4bcf37bbdb154579b4951748345a2594"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 539,
+        "commit": "22879ef523ec8cdd11ac237625723cebda36faae"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 538,
+        "commit": "9811b0eb787131fe0567a5bcb3f1c5b3d1ef0139"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 538,
+        "commit": "29279d930684ce15a43ec5b05a4345bf1d6aba2e"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 538,
+        "commit": "fd0ecf023336ce631c8a5cd7b70cdeca8f0e82e0"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 538,
+        "commit": "4da9ffc68c5ed3ad698298dc47db115fbdba6e81"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 538,
+        "commit": "89ca057a464fd7fb127c9d17dd02f77ef907a13c"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 538,
+        "commit": "263d8c00837eb50951bdd16ebf9beee84add9126"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 538,
+        "commit": "60310f86bffde9b1258ab3f0efa0bba671face56"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 538,
+        "commit": "b25f56d9552faea2c3b9047504cde51524338c4a"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 538,
+        "commit": "acb652cd1234bce471d34f5f28ed902b3037bb5e"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 538,
+        "commit": "7a31d02bd497b08d6ca93181f6ebaf153918e9df"
+      },
+      {
+        "rule": "curl-auth-header",
+        "file": "cowork/test/run-tests.mjs",
+        "line": 91,
+        "commit": "2dcb556d266d85b2249cd693899774c712b17ddd"
+      },
+      {
+        "rule": "curl-auth-header",
+        "file": "cowork/test/run-tests.mjs",
+        "line": 130,
+        "commit": "2dcb556d266d85b2249cd693899774c712b17ddd"
+      },
+      {
+        "rule": "curl-auth-header",
+        "file": "cowork/test/run-tests.mjs",
+        "line": 137,
+        "commit": "2dcb556d266d85b2249cd693899774c712b17ddd"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 538,
+        "commit": "eb9b211fa9152380b38ea94313a97d89601dce47"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 538,
+        "commit": "2319050541e5f2f9493279c04fee052557a38adb"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 536,
+        "commit": "27c759b99b3226d04e9805dca757c382d5fba396"
+      },
+      {
+        "rule": "curl-auth-header",
+        "file": "plans/2026-08-16-observer-error-path.md",
+        "line": 223,
+        "commit": "3bf191450316a62efa9c05c2930aab3beb94c675"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "200457c7f50de1a08573b78d6e0e39378c30ff7e"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 537,
+        "commit": "73533cd7fc45c9cff3c0a7d1e3f59fae8af273da"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 538,
+        "commit": "da4bcadf8e3795031d96602f4bd8c80f3294d816"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 536,
+        "commit": "4de9ebe892da4a0921b26481b893504ed0938f7d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 536,
+        "commit": "70968263ccc59b556eafe335dd50cf27b613b9c2"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "a4e25d210fc121f6c307291c943331641e3a6510"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 536,
+        "commit": "712a6c79875f838edbc4a33d9e5a52bdd968f464"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 536,
+        "commit": "3120a06aa9d13c799a5393f34267916292478f28"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 537,
+        "commit": "90aa9a1ebc8b03b5394d050fc2f787de5f421d77"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "7d3f1879ebd0ab2f4bf347854ace96e44bf926aa"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 536,
+        "commit": "a710bfe4c01c06d86d74e7f86bc2127a7e860141"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 537,
+        "commit": "3bf191450316a62efa9c05c2930aab3beb94c675"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 537,
+        "commit": "a38d51169bf51d9531144d985dfa66c6acdad921"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "ce921328dbd6888beb5a67d70bc7ea2604e381dd"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "de4930c0410ec9badb21dff98dd7bf409d5aac20"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "21434061901629e2b78d75328f39536a8a3caec8"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 537,
+        "commit": "9326fae06a528201fe3f31ba3065249bc82b2817"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "2db6a1f506ca986ab6c67fae6e01177901b0aba5"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "b3eafc82b981fba953331b8b9fb98519daba2f8b"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "4597398c4c74cc77898394d67ce157f3e6138aa1"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "1e3b2853ff5c01e869c1c38b4d211a8cca853a66"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "25f4b7868d377d0e09755c1a042d5bb972e736e4"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "09391a740ea072ee8bcca46d60c780ac295615b9"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "4ad2383f63be8d542da682c75cb7968f4737c1c9"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "7787d0e20b1f7192839167c425ea2c0a1c8c9182"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "6fc796e9269e934e7fb75d9225573e7eca4da99f"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "1d7898fb776daf253a93d2f3a3a8635fdfe3b50b"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "a1b50d6a275e01cc390a989286f8468a7a9deadf"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "d03392f8dac616f82950c8ccf3b7870f3d484f17"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "af232746f52c03b7e3dd61264692075d1580d49e"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "2e15df0e8daa21d875cd45e5a5672adb72179147"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 532,
+        "commit": "41113d345470b28f37a4e17f2b96f5adb562b3f4"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 532,
+        "commit": "92997115e58a077ea8fbf6d934278e94036309f5"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 532,
+        "commit": "49e5dadfdf79acf5397566ba740b230a54304af5"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 535,
+        "commit": "b20024b77216fc067a914bd066d1340cc1f7f560"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 532,
+        "commit": "3695d1160127fbde516867959567c81285872b9d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 532,
+        "commit": "36cb8fcb4928a626421762bac42b258eeb212495"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 532,
+        "commit": "2a0a4073407b13917f9d4e5707ed143ad05d8ed3"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 532,
+        "commit": "482b4f0a15adca88e3924fc05fe6c5ce647dcbc0"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 498,
+        "commit": "f1b8fdb28a1982229084fab2c9bade67b4b3c03d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 533,
+        "commit": "39dd77d9e3f9f4eaa72658ebe42fdf810508ab16"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 464,
+        "commit": "c520c8f2c9f1096dd0a71dff8e8f7ac10cfc7357"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 528,
+        "commit": "5bd7da778e61dd277007065af93355a287791352"
+      },
+      {
+        "rule": "aws-access-token",
+        "file": "tests/telemetry/error-scrub.test.ts",
+        "line": 142,
+        "commit": "580621c936dff3333aaba53c9adaaf80b878a75c"
+      },
+      {
+        "rule": "aws-access-token",
+        "file": "tests/telemetry/error-scrub.test.ts",
+        "line": 143,
+        "commit": "580621c936dff3333aaba53c9adaaf80b878a75c"
+      },
+      {
+        "rule": "jwt",
+        "file": "tests/telemetry/error-scrub.test.ts",
+        "line": 127,
+        "commit": "580621c936dff3333aaba53c9adaaf80b878a75c"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 498,
+        "commit": "348d9ee406cf7a01781c662c7bbf0ba2922dd110"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 464,
+        "commit": "16b2c72d572596ffa1eee319cf3756f038dafde8"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 464,
+        "commit": "ebe613308983d5674748d226b2d1326d82e30ec3"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 464,
+        "commit": "eac30a15708c5361493463277e9c291b1bfda5a1"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 464,
+        "commit": "a4e16b9345df14a4bcbc679421417c01739e4537"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 464,
+        "commit": "edc5cf7d59780e10dfd7523540cdc7ca5a458502"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 464,
+        "commit": "b90ec0217787e603a4d8380b00a53f80ab5758ae"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 464,
+        "commit": "580621c936dff3333aaba53c9adaaf80b878a75c"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 464,
+        "commit": "3b1014a305b8ec63f49463a8af191f8610907a20"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 464,
+        "commit": "e9ca97021475f94c468e2f9064504817856adae4"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 464,
+        "commit": "82361e782610906c29e5e33e7a934474ece44eee"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 464,
+        "commit": "608611b6276b4f9e57da48f657037c308adfd1ef"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 464,
+        "commit": "c0b96288a79eae38ca92c662fb3c6468ca7421a5"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 464,
+        "commit": "6259b20c90eac5ce60079565192f39c99fec09ac"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 459,
+        "commit": "cf450cec0053e392102b2ad8900f467368a3c690"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 464,
+        "commit": "3759d99010bdbf65cc7ed7105f0882b02b0cfae2"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-service.cjs",
+        "line": 458,
+        "commit": "34c734a1a4b810da157072e835882295c033d33a"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "docker/e2e/server-beta-e2e.mjs",
+        "line": 152,
+        "commit": "e7bbb2a9aaa755244d902e2a9807758a14f97ee5"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/worker-service.cjs",
+        "line": 1347,
+        "commit": "34c734a1a4b810da157072e835882295c033d33a"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 459,
+        "commit": "4016a8c43aec1820065f77c85c0e53d563c5d792"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 459,
+        "commit": "7a33685c4664b2153f493482261a13906d4e3e5f"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 458,
+        "commit": "33ae79ec0d80be81e645a99dc9b93762890c93c5"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 459,
+        "commit": "8151cd5a8f886cc8bafaa0441b699a1c88ad9e4d"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 459,
+        "commit": "d13fc437fa76d4fc6a5d09b2bd78e6d051acb55c"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 459,
+        "commit": "b45515c5fed340d71a855d20e52502e1e4b3e720"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 471,
+        "commit": "e4ec654355cfb85164a6449b9954a290386282a0"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/server-beta-service.cjs",
+        "line": 458,
+        "commit": "7a6eaca5657ada184b2e0cf9d36c2f646974154a"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/worker-service.cjs",
+        "line": 1360,
+        "commit": "e4ec654355cfb85164a6449b9954a290386282a0"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/worker-service.cjs",
+        "line": 631,
+        "commit": "5d79bb7a7adba9f5607b210a4ce3f264e8358f9b"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/worker-service.cjs",
+        "line": 681,
+        "commit": "224567f98059e6d0e53effcfd559cdd5628dd6ac"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "plugin/scripts/worker-service.cjs",
+        "line": 631,
+        "commit": "ca8421611ccaa778016c4eef9a8ea8ea1beee7ed"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "docs/public/usage/private-tags.mdx",
+        "line": 107,
+        "commit": "2b223b7cd9ddfee84a2f6fde2dafb6687342bf99"
+      },
+      {
+        "rule": "generic-api-key",
+        "file": "tests/user-prompt-tag-stripping.test.ts",
+        "line": 65,
+        "commit": "2b223b7cd9ddfee84a2f6fde2dafb6687342bf99"
+      }
+    ]
+  },
+  "local_sast": {
+    "check": "semgrep-local-rules",
+    "exit_code": 0,
+    "status": "NOT VERIFIED",
+    "candidate_count": 0,
+    "candidates": [],
+    "error_count": 3,
+    "reason": "Some files could not be parsed"
+  },
+  "dependency_counts_before": null,
+  "dependency_counts_after": null,
+  "osv_affected_package_entries": 9,
+  "osv_unique_advisory_ids": [
+    "GHSA-2gqq-gqf2-x968",
+    "GHSA-2jfj-6hjv-fm6j",
+    "GHSA-2v37-7h3g-55p8",
+    "GHSA-3wwx-pv8p-q78v",
+    "GHSA-3xpg-4rpp-hhhm",
+    "GHSA-4cwx-7wf7-3272",
+    "GHSA-68fv-2mgg-jv7q",
+    "GHSA-6j4f-fj2g-mc7p",
+    "GHSA-82fw-gwwq-j7x9",
+    "GHSA-8436-99hf-9mmv",
+    "GHSA-8xcm-r25x-g524",
+    "GHSA-f88m-g3jw-g9cj",
+    "GHSA-fxqj-rqcc-2cmp",
+    "GHSA-jr45-8vmc-qm54",
+    "GHSA-m8rv-5g2x-5cg5",
+    "GHSA-mh99-v99m-4gvg",
+    "GHSA-pmjh-fq2x-6v4x",
+    "GHSA-pqg4-j6r4-53mv",
+    "GHSA-q2hr-2g5m-vwhr",
+    "GHSA-qhr7-859c-m2p7",
+    "GHSA-r53p-7pc4-xj5r",
+    "GHSA-rfgv-xxqx-mfg5",
+    "GHSA-rgj7-g3m4-5g8c",
+    "GHSA-rgw5-rvv9-x895",
+    "GHSA-rx4f-c7p8-82vq",
+    "GHSA-v3r7-h72x-cjcm",
+    "GHSA-w293-vg96-wgc3",
+    "GHSA-wq5f-xc86-pv6w"
+  ],
+  "recovery": {
+    "repository": "Amankendi/claude-mem",
+    "status": "PASS",
+    "scope": "local code bundle restoration only; no offsite/data/LFS/host-state claim",
+    "steps_exit_codes": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "bd57bf29bdaa463e4cd9da14d6ade682c8bb4188539622e93ad9ca66ec1d4c3c",
+    "bytes": 421289024
+  },
+  "workflow_source": [
+    {
+      "workflow": "npm-publish.yml",
+      "explicit_workflow_permissions": false,
+      "unpinned_actions": [
+        "actions/checkout@v4",
+        "actions/setup-node@v4",
+        "oven-sh/setup-bun@v2"
+      ],
+      "privileged_trigger": false,
+      "yaml_valid": true
+    },
+    {
+      "workflow": "close-tracked-issues.yml",
+      "explicit_workflow_permissions": false,
+      "unpinned_actions": [
+        "actions/github-script@v8"
+      ],
+      "privileged_trigger": false,
+      "yaml_valid": true
+    },
+    {
+      "workflow": "summary.yml",
+      "explicit_workflow_permissions": false,
+      "unpinned_actions": [
+        "actions/checkout@v6",
+        "actions/ai-inference@v2"
+      ],
+      "privileged_trigger": false,
+      "yaml_valid": true
+    },
+    {
+      "workflow": "ci.yml",
+      "explicit_workflow_permissions": false,
+      "unpinned_actions": [
+        "actions/checkout@v4",
+        "actions/setup-node@v4",
+        "oven-sh/setup-bun@v2",
+        "actions/checkout@v4",
+        "actions/setup-node@v4",
+        "oven-sh/setup-bun@v2",
+        "astral-sh/setup-uv@v5",
+        "actions/checkout@v4",
+        "oven-sh/setup-bun@v2",
+        "actions/checkout@v4",
+        "actions/setup-node@v4",
+        "oven-sh/setup-bun@v2",
+        "actions/checkout@v4",
+        "actions/setup-node@v4",
+        "oven-sh/setup-bun@v2",
+        "actions/checkout@v4",
+        "actions/setup-node@v4",
+        "oven-sh/setup-bun@v2"
+      ],
+      "privileged_trigger": false,
+      "yaml_valid": true
+    },
+    {
+      "workflow": "claude.yml",
+      "explicit_workflow_permissions": false,
+      "unpinned_actions": [
+        "actions/checkout@v6",
+        "anthropics/claude-code-action@v1"
+      ],
+      "privileged_trigger": false,
+      "yaml_valid": true
+    },
+    {
+      "workflow": "convert-feature-requests.yml",
+      "explicit_workflow_permissions": false,
+      "unpinned_actions": [
+        "actions/github-script@v8",
+        "actions/github-script@v8",
+        "actions/github-script@v8"
+      ],
+      "privileged_trigger": false,
+      "yaml_valid": true
+    },
+    {
+      "workflow": "deploy-install-scripts.yml",
+      "explicit_workflow_permissions": false,
+      "unpinned_actions": [
+        "actions/checkout@v4",
+        "amondnet/vercel-action@v25"
+      ],
+      "privileged_trigger": false,
+      "yaml_valid": true
+    },
+    {
+      "workflow": "alkendi-security.yml",
+      "explicit_workflow_permissions": true,
+      "unpinned_actions": [],
+      "privileged_trigger": false,
+      "yaml_valid": true
+    },
+    {
+      "workflow": "windows.yml",
+      "explicit_workflow_permissions": false,
+      "unpinned_actions": [
+        "actions/checkout@v4",
+        "actions/setup-node@v4",
+        "actions/checkout@v4",
+        "actions/setup-node@v4",
+        "astral-sh/setup-uv@v5"
+      ],
+      "privileged_trigger": false,
+      "yaml_valid": true
+    }
+  ]
+}
